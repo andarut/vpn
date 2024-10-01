@@ -1,5 +1,3 @@
-
-
 # vpn
 
 **Mobile app to connect VPN. Using Typescript + React Native and OpenVPN.**
@@ -32,3 +30,26 @@ npm run ios
 | NordVPN | 12.99$/m, 4.99$/12m, 3.39$/24m | 30 days | iOS, Mac, Windows, Android, Linux, Smart TVs | 6400+ | NordLynx (WireGuard), OpenVPN, IKEv2 | - | 6 |
 | ProtonVPN | 9.99$/m, 5.99$/12m, 4.99$/24m | 30 days | iOS, Mac, Windows, Android, Linux | 1700+ | WireGuard, OpenVPN, IKEv2 | - | 10 |
 | Mullvad | 5€/m (flat rate) | 30 days | iOS, Mac, Windows, Android, Linux | 800+ | WireGuard, OpenVPN | - | 5 |
+
+I think main feature should be QBS network, of course it needs deep thinking and testing, but if you can bring qbs network to people - i think they will like it.
+QBS mathematically can by proved anonymous.
+
+Main reasons for users:
+- Fast speed, like 10 gigabits
+- All apps (simple)
+- kill switch (may be banned in Russia)
+- Free trial
+- Allow paying in crypto
+- unlimited devices, but limited keys
+- limited countries (only high speeds)
+- simplier = coolier
+
+About servers:
+- aeza.net (Shared)
+- simple scaling (if there a lot of users)
+
+About dev features:
+- docker containers
+- monitoring (not only about servers, but about all networks and speeds)
+- QBS???
+- auto reconnect to fastets
